@@ -184,10 +184,216 @@ input{
 /* Seccion Marcas Vacunas */
 
 .AstraZeneca{
-    background-image: url("Imagenes/astra.jpg");
+    background-image: url(" ");
     background-size: cover;
     background-position: center center;
     height: 400px;
     width: 100%;
 }
 
+
+/* Should-vaccine */
+.should-vaccine{
+    transform: translateX(150px);
+}
+
+.should-vaccine h1{
+    font-size: 2em;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding: 0px 20px;
+}
+.minimize{
+    transform: translateX(50px);
+}
+
+.forming{
+    transform: translateX(20px);
+}
+
+.protecting{
+    transform: translateX(-20px);
+}
+
+.creating{
+    transform: translateX(-50px);
+}
+
+.container1 .minimize:hover{
+    transform: translateY(-15px);
+}
+
+.container1 .forming:hover{
+    transform: translateY(-15px);
+}
+
+.container1 .protecting:hover{
+    transform: translateY(-15px);
+}
+
+.container1 .creating:hover{
+    transform: translateY(-15px);
+}
+
+h3{
+    color: #000080;
+    font-size: 1em;
+    margin-top: 0px;
+}
+
+#preparations{
+    text-align: right;
+    margin-top: 100px;
+
+}
+
+#preparations p{
+    text-align: left;
+    transform: translateX(680px);
+}
+
+#preparations h1{
+    font-size: 2em;
+    transform: translateX(-225px);
+}
+
+/* prep */
+.container2{
+    display: flex;
+    margin-top: 100px;
+}
+
+#prep{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    flex-direction: row;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.general{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+
+#prep .img-container{
+    background-image: url("Imagenes/happy.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    width: 500px;
+    margin-top: 50px;
+    transform: translateY(-200px);
+}
+
+.alcoholic{
+    padding-left: 10px;
+}
+
+.stress{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.eat{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.get{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.exercise{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+fieldset h3{
+    padding-top: 10px;
+}
+
+/* Energency */
+
+.gral{
+    display: flex;
+    margin-top: 100px;
+}
+
+#Emergency{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    flex-direction: row;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+
+#Emergency .img-container{
+    background-image: url("Imagenes/cubre-boca.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.box fieldset{
+    width: 50px;
+}
+
+h2{
+    color: #000080;
+}
+
+#Emergency fieldset{
+    padding-top: 40px;
+    padding-left:10px;
+    width: 220px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#Emergency .img-container{
+    transform: translateX(30px);
+}
+
+/* final */
+
+#final .container{
+    background-color: rgba(81,209,246,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    flex-direction: row;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 200px;
+}
+
+li{
+    color: #99A3A4;
+    font-weight: bold;
+}
